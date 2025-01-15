@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: "Scrambler's projects blog"
+title: "Scrambler's project blog"
 description: "My personal site for sharing ideas and project updates"
 logo: sitelogo.png
 teaser: teaser.png
@@ -32,7 +32,7 @@ owner:
   google:
     ad-client:
     ad-slot:
-  bio:
+  bio: Software engineer by trade, hardware/embedded engineer by heart, and engineer by mind in general.
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
@@ -52,6 +52,7 @@ exclude:
   - Gemfile
   - Gruntfile.js
   - LICENSE
+  - LICENSE-skinny-bones
   - README
   - Rakefile
   - config

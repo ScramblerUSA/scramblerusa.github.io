@@ -8,18 +8,18 @@
 
 .btn {
 	display: inline-block;
-	padding: 8px 20px;
+	padding: 4px 10px;
 	@include font-size(14);
 	font-family: $alt-font;
-	background-color: $primary-color;
-	color: $white;
+	background-color: var(--bg-secondary);
+	color: var(--text);
 	text-decoration: none;
 	border: 0 !important;
 	border-radius: 10 * $border-radius;
 	@include transition(background 0.2s, border 0.2s);
 	&:hover {
-		color: $white;
-		background-color: lighten($primary-color, 10);
+		color: var(--text-secondary);
+		background-color: var(--bg-hover);
 	}
 	&:active {
 		// move button slightly on click
@@ -115,9 +115,10 @@
 
 .btn-social {
 	$social:
-    (facebook, $facebook-color),
+		(facebook, $facebook-color),
 		(flickr, $flickr-color),
 		(foursquare, $foursquare-color),
+		(github, $github-color),
 		(google-plus, $google-plus-color),
 		(instagram, $instagram-color),
 		(linkedin, $linkedin-color),
@@ -126,31 +127,32 @@
 		(tumblr, $tumblr-color),
 		(twitter, $twitter-color),
 		(vimeo, $vimeo-color),
+		(x-twitter, $x-twitter-color),
 		(youtube, $youtube-color);
-	@extend .btn-inverse;
-	color: $text-color !important;
+	@extend .btn;
+	color: var(--text) !important;
 	&:visited,
 	&:active {
-		color: $text-color;
+		color: var(--text);
 	}
-	border: 1px solid $border-color !important;
+	border: 1px solid var(--border) !important;
 	@each $socialnetwork, $color in $social {
 		i.fa-#{$socialnetwork} {
-	    color: $color;
-    }
+			color: $color;
+		}
 	}
 	&:hover {
 		color: $white !important;
 	}
 	@each $socialnetwork, $color in $social {
 		&.#{$socialnetwork}:hover {
-	    background: $color;
-	    border-color: $color;
-	    @each $socialnetwork, $color in $social {
+			background: $color;
+			border-color: $color;
+			@each $socialnetwork, $color in $social {
 				i.fa-#{$socialnetwork} {
-			    color: $white;
-		    }
+					color: $white;
+				}
 			}
-    }
+		}
 	}
 }

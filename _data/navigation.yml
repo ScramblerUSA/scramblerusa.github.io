@@ -1,6 +1,16 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: Articles
+  url: /articles/
+  excerpt: "All the articles, beyond just a few latest ones"
+  image: 400x250.gif
+
+- title: Projects
+  url: /projects/
+  excerpt: "Various projects I'm working on"
+  image: 400x250.gif
+
+- title: About
+  url: /about/
+  excerpt: "Some things about myself"
+  image: 400x250.gif

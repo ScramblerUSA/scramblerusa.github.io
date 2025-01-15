@@ -20,7 +20,11 @@ sitemap: false
 @import "vendor/bourbon/bourbon";
 @import "grid-settings";
 @import "vendor/neat/neat";
-@import "vendor/font-awesome/font-awesome";
+
+//@import "vendor/font-awesome/font-awesome";
+@import "vendor/fontawesome/fontawesome";
+@import "vendor/fontawesome/solid";
+@import "vendor/fontawesome/brands";
 
 /*
    Global
@@ -29,6 +33,7 @@ sitemap: false
 @import "mixins";
 @import "reset";
 @import "base";
+@import "tooltip";
 
 /*
    Components
