@@ -84,7 +84,8 @@
 /* Top menu navigation */
 
 .top-menu {
-	display: none;
+	//display: none;	// set to block by neat scss only if screen width is large
+	display: block;
 	position: relative;
 	@include media($medium) {
 		@include span-columns(12);
