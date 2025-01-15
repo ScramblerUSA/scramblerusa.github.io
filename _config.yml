@@ -5,7 +5,7 @@ description: "My personal site for sharing ideas and project updates"
 logo: sitelogo.png
 teaser: teaser.png
 locale: en
-url: https://scramblerusa.github.io/
+url: https://scramblerusa.github.io
 feed:
   path: atom.xml
 
