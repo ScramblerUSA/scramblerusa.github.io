@@ -3,8 +3,10 @@
     {% if post.image.teaser %}
       <img src="{{ site.url }}/images/{{ post.image.teaser }}" alt="teaser" itemprop="image" />
     {% else %}
-      {% if proj_teaser %}
-        {% assign teaser = proj_teaser %}
+      {% if post.categories contains "sdsh" %}
+        {% assign teaser = "sdsh_teaser.png" %}
+      {% elsif post.categories contains "vomo" %}
+        {% assign teaser = "vomo_teaser.png" %}
       {% else %}
         {% assign teaser = site.teaser %}
       {% endif %}
