@@ -17,3 +17,4 @@ The goal of simple smart home project is to make inexpensive, accessible, secure
   - Easy to install. Every commercially available smart switch I've seen was bulky, hence hard to fit in non-empty electrical box. Maybe even impossible to fit in smaller boxes. My design is very compact and leaves a lot of space for wires. And connected 2-gang switches make it super easy to fit the cover on.
   - Good-looking. For me it is important for my creations to be perfect: I will use them daily and I want to enjoy the experience. Wife-approval factor is also a thing.
 
+With the goals defined it is time to start the [project](/sdsh/).

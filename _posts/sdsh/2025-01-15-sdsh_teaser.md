@@ -39,3 +39,4 @@ Other devices I want to make in the future:
 - Smart smoke alarms
 - Light sensor
 
+See the [project page](/sdsh/) for more details.

@@ -14,7 +14,7 @@ So I decided to share my creations through my own git repositories and document 
 Here's the glimpse of what's going on:
 
 <div class="tiles">
-{% for post in site.categories.articles limit:8 %}
+{% for post in site.posts limit:8 %}
 	{% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
