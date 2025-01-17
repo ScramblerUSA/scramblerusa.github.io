@@ -32,14 +32,15 @@ Although it's super easy to follow this guide and make something, it is only tru
 ![](/images/under-construction.png)
 
 #### Before you begin...
-- [Sourcing tools](buytools/)
-- ~~[Sourcing smart devices](buydevices/)~~
-- ~~[Sourcing components](buycomponents/)~~
+- [Sourcing tools](/sdsh/buytools/)
+- ~~[Sourcing smart devices](/sdsh/buydevices/)~~
+- ~~[Sourcing components](/sdsh/buycomponents/)~~
 
-#### Device making guides
-- [Switches and dimmers](switches/)
-- ~~[Switch add-ons](switchaddons/)~~
-- ~~[Smart plugs](smartplugs/)~~
+#### Device guides
+- [Switches and dimmers](/sdsh/switches/)
+- ~~[Switch add-ons](/sdsh/switchaddons/)~~
+- ~~[Smart plugs](/sdsh/smartplugs/)~~
+- ~~[Programming guide](/sdsh/programming/)~~
 
 #### Auxiliary stuff
 - [Pogo pin jig](pogopinjig/)
