@@ -172,9 +172,13 @@
 			p > a.reversefootnote {
 				border-bottom-width: 0;
 			}
-      .toc li > a {
-        border-bottom-width: 0;
-      }
+			// to prevent thumbnails from scaling down
+			td {
+				min-width: 100px;
+			}
+			.toc li > a {
+				border-bottom-width: 0;
+			}
 			.page-footer,
 			.pagination {
 				@include fill-parent;

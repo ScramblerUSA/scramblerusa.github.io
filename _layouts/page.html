@@ -19,6 +19,10 @@ layout: default
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
+				{% if page.project %}
+				<br />
+				<p><a href="/{{page.project}}/">Back to the project...</a></p>
+				{% endif %}
 				<hr />
 				<footer class="page-footer">
 					{% if page.categories %}

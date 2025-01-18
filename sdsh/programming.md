@@ -2,6 +2,7 @@
 layout: page
 title: Programming guide
 tags: []
+project: sdsh
 ---
 
 Coming soon!

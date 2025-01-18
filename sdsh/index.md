@@ -33,8 +33,8 @@ Although it's super easy to follow this guide and make something, it is only tru
 
 #### Before you begin...
 - [Sourcing tools](/sdsh/buytools/)
-- ~~[Sourcing smart devices](/sdsh/buydevices/)~~
-- ~~[Sourcing components](/sdsh/buycomponents/)~~
+- [Sourcing smart devices](/sdsh/buydevices/)
+- [Sourcing components](/sdsh/buycomponents/)
 
 #### Device guides
 - [Switches and dimmers](/sdsh/switches/)
