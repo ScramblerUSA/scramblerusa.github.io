@@ -37,10 +37,10 @@ Although it's super easy to follow this guide and make something, it is only tru
 - [Sourcing components](/sdsh/buycomponents/)
 
 #### Device guides
+- [Programming guide](/sdsh/programming/)
 - [Switches and dimmers](/sdsh/switches/)
 - ~~[Switch add-ons](/sdsh/switchaddons/)~~
 - ~~[Smart plugs](/sdsh/smartplugs/)~~
-- ~~[Programming guide](/sdsh/programming/)~~
 
 #### Auxiliary stuff
 - [Pogo pin jig](pogopinjig/)
