@@ -43,7 +43,7 @@ If it doesn't protrude, then it will not make good contact. If it protrudes too 
 Pay attention to fit the pins in their proper places. Here's how it should like after all the pins are pressed in.
 If you use different colors, just be sure to put 3.3, GND, RX, TX, CEN pins in their corresponding locations.
 
-![](/images/step4.jpg)
+![](/images/pogo/step4.jpg)
 
 I like to add super glue around each pin at this stage. Once the glue solidifies (feel free to use the accelerator) the pins will not go anywhere.
 Before moving on, just double-check the springiness of every pin. Sometimes the glue seeps between the pin and the jig body.
