@@ -37,7 +37,7 @@ Although it's super easy to follow this guide and make something, it is only tru
 - [Sourcing components](/sdsh/buycomponents/)
 
 #### Device guides
-- ~~[Getting the boards](/sdsh/teardown/)~~
+- ~~[Getting the stuff](/sdsh/teardown/)~~
 - [Programming guide](/sdsh/programming/)
 - [Switches and dimmers](/sdsh/switches/)
 - ~~[Switch add-ons](/sdsh/switchaddons/)~~

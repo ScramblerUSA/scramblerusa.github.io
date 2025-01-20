@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting the boards
+title: Getting the stuff
 tags: []
 project: sdsh
 ---
