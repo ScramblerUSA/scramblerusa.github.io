@@ -8,6 +8,8 @@ project: sdsh
 On this page you will find links to various smart devices that serve as a base of this project. These are the devices we will modify to achieve desirable appearance and behavior.
 In case the link doesn't work I also give a picture, so you have an idea of what to look for. Click the picture to view the larger version.
 
+Struck-out items are not a part of this guide YET, they are work in progress.
+
 #### Switches and dimmers
 
 |[![](/images/buying-guide/switcht.png)](/images/buying-guide/switch.png)|WiFi only switches: [these](https://www.aliexpress.us/item/3256806781135781.html) or [these](https://www.aliexpress.us/item/3256806541463529.html)|
@@ -18,8 +20,10 @@ In case the link doesn't work I also give a picture, so you have an idea of what
 As far as these single switches go, there are many similarly-looking options from many different sellers. Not all of them are created equal, though. I bought many different switches and some are perfect for modification, but others are not.
 The ones linked in the table seem to be the right ones. At least at the time of writing (Jan 2025). Maybe another batch could be different.
 My general suggestion would be to look for the cheaper option (prices vary a lot and even the same listing can change price a few times per day) and buy one or two. Then open it up and order more if it's a good one.
-Here's what to look for. The board inside the switch should look like this: [![](/images/buying-guide/switchgoodt.jpg)](/images/buying-guide/switchgood.jpg) - there should be a BK7231N chip surrounded by 6 round contact pads.
-I had a bad luck with switches that look like this: [![](/images/buying-guide/switchbadt.png)](/images/buying-guide/switchbad.png) - it mentions model BSD17 and features an oval recess for screw access. I'd stay away from those as I ordered 7 of those and they came with a very hard to work on board.
+Here's what to look for. In general I had good luck with these models of switches: [![](/images/buying-guide/switchgood2t.jpg)](/images/buying-guide/switchgood2.jpg)
+The board inside the switch should look like this: [![](/images/buying-guide/switchgoodt.jpg)](/images/buying-guide/switchgood.jpg) - there should be a BK7231N chip surrounded by 6 round contact pads.
+I had bad luck with switches that look like this: [![](/images/buying-guide/switchbadt.png)](/images/buying-guide/switchbad.png) - it mentions model BSD17 and features an oval recess for screw access. I'd stay away from those as I ordered 7 of those and they came with a very hard to work on board.<br/>
+I would also stay away from switches having this ledge where the contacts are: [![](/images/buying-guide/switchbad2t.jpg)](/images/buying-guide/switchbad2.jpg) - they are usable, but have a different component layout and will require a different switch design.
 
 |[![](/images/buying-guide/switch2t.png)](/images/buying-guide/switch2.png)|[2-gang WiFi switch](https://www.aliexpress.us/item/3256805556258776.html) - be sure to select WiFi 2 gang|
 |[![](/images/buying-guide/avattot.png)](/images/buying-guide/avatto.png)|[Avatto dimmer](https://www.aliexpress.us/item/3256806998022673.html)|
