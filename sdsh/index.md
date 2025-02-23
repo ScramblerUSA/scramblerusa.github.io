@@ -61,4 +61,4 @@ Although it's super easy to follow this guide and make something, it is only tru
 </div><!-- /.tiles -->
 
 All the things I share are always free. However, making them available (organizing, documenting, etc.) takes a lot of time. So, if you like what I'm doing please consider supporting me.
-<a href="https://www.buymeacoffee.com/ScramblerUSA" class="btn" target="_blank"><i class="fa-solid fa-mug-hot" aria-hidden="true"></i></a>
+<a href="https://www.buymeacoffee.com/ScramblerUSA" class="btn" target="_blank"><i style="color:#ddbb00" class="fa-solid fa-mug-hot" aria-hidden="true"></i></a>

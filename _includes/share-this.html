@@ -3,6 +3,14 @@
 {% else %}
 <div class="inline-btn">
 {% endif %}
-	<a class="btn-social x-twitter" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i> {{ site.data.messages.locales[site.locale].share }} X</a>
-	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa-brands fa-facebook" aria-hidden="true"></i> {{ site.data.messages.locales[site.locale].share }} Facebook</a>
+
+{{ site.data.messages.locales[site.locale].share }}:
+<a class="btn-social x-twitter" title="X (twitter)" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+<a class="btn-social facebook" title="Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+<a class="btn-social reddit" title="Reddit" href="https://reddit.com/submit?url={{ page.url | replace:'index.html','' | prepend: site.url }}&amp;title={{ page.title | escape | replace:' ','%20' }}" target="_blank"><i class="fa-brands fa-reddit" aria-hidden="true"></i></a>
+<a class="btn-social pinterest" title="Pinterest" href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','//assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a>
+<a class="btn-social whatsapp" title="Whatsapp" href="https://wa.me/?text={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+<a class="btn-social telegram" title="Telegram" href="https://t.me/share/url?url={{ page.url | replace:'index.html','' | prepend: site.url }}&text={{ page.title | escape | replace:' ','%20' }}" target="_blank"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a>
+<a class="btn-social linkedin" title="Linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+
 </div><!-- /.share-this -->

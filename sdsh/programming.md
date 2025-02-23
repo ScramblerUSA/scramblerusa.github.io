@@ -194,7 +194,7 @@ Now that we are done with connections, it is time to [flash the chip](#prg_flash
 
 ##### MCU connections
 
-If you want to add the ceiling fan control to the dimmer or just want to replace the stock firmware, here's how to connect.
+If you want to add a ceiling fan control to the dimmer or just want to replace the stock firmware, here's how to connect.
 
 If you desoldered the module, connection is pretty trivial: [![](/images/prg/dimmerd-mcu-connect_t.jpg)](/images/prg/dimmerd-mcu-connect.jpg)<br/>
 On this picture you can see the UART connection as well as a wire soldered to PIN5 connecting it to +3.3V. This is some very fine soldering.
@@ -230,7 +230,12 @@ After flashing is done, you can easily repair the cut pins with some solder and 
 ![](/images/under-construction.png)
 
 
+Pro tip: mark the board after flashing. I like to put a label, showing what firmware is flashed. You can use a random small sticker as well.
+A permanent marker works too. Anything to help you keep track if the board was flashed or not.
+
+
 ### Flashing the dimmer MCU {#prg-dimmermcu}
 
 ![](/images/under-construction.png)
+
 
