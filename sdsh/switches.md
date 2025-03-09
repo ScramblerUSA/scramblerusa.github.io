@@ -51,7 +51,7 @@ I tried printing with a brim, but it is absolutely not needed for larger parts a
 ~~In case you are confident in your printer and don't want to deal with the cleanup, there are raw versions of those parts available.~~
 
 If you like the look of a switch with a status LED, you need to drill a hole in the switch rocker.
-Use the [switch dilling jig](https://github.com/ScramblerUSA/SimpleDiySmarthome/blob/main/3DModels/WallSwitch-DrillingJig.stl) to drill the hole in the right location.
+Use the [switch drilling jig](https://github.com/ScramblerUSA/SimpleDiySmarthome/blob/main/3DModels/WallSwitch-DrillingJig.stl) to drill the hole in the right location.
 Insert the jig into the rocker and use the 5/32 (or 4 mm) diameter drill to make a hole. Deburr the hole if needed, it needs to be smooth on the front side.
 Take a piece of scotch tape and apply it on the front side. Make sure there are no air bubbles around the hole.
 Use a plastic card or a fingernail if needed. Tape will contain the resin, while the adhesive will add a slight texture to the resin, giving it a matte appearance.

@@ -144,9 +144,10 @@ Now that we are done with connections, it is time to [flash the chip](#prg_flash
 
 So far I encountered only one board layout for double (2-gang) switch. Here it is:<br />
 [![](/images/prg/sw2_t.jpg)](/images/prg/sw2.jpg) (click to enlarge)<br/>
-Unfortunately, there are no pads, so we can't use a jig here and the only way to flash it is to solder wires to the board.
+Unfortunately, there are no test pads, ~~so we can't use a jig here and the only way to flash it is to solder wires to the board~~ (the jig for 2-gang switches is in the works and will be published soon).
 Luckily it is not hard at all. All the contacts are easily accessible.
-**Attention!** RX and TX labels on pads describe where to connect them on your USB-UART adapter, not the actual RX/TX designation of the chip which are reversed. So if you see TX here - this is where to connect TX pin of UART, and RX denotes where to connect RX pin of UART.<br/>
+**Attention!** RX and TX labels on pads describe where to connect them on your USB-UART adapter, not the actual RX/TX designation of the chip which are reversed.
+So if you see TX here - this is where to connect TX pin of UART, and RX denotes where to connect RX pin of UART.<br/>
 
 For RX and TX there are only a single spot to do so. With power and ground, however, there is a bit of freedom.
 For GND connection choose whatever the easies for you is.

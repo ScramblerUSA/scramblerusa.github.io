@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pogo pin jig
+title: Pogo pin jig for Tuya switches
 tags: []
 project: sdsh
 image:
@@ -12,7 +12,7 @@ If you plan to make more than just a few switches, chances are you want to make 
 ![](/images/pogo/pattern.jpg)
 
 All single switches covered in this project share this layout, so to make it easy on yourself go ahead and make the jig! You will need:
-- [3D-printed jig body](https://github.com/ScramblerUSA/SimpleDiySmarthome/blob/main/3DModels/PogoPinJig.stl) (step and fusion files are avaiable as well)
+- [3D-printed jig body](https://github.com/ScramblerUSA/SimpleDiySmarthome/blob/main/3DModels/TuyaPogoPinJig.stl) (step and fusion files are avaiable as well)
 - A few lengths of wire (I prefer flexible wires with silicone insulation)
 - Tactile switch (see [buying guide](/sdsh/buycomponents/) for sources)
 - Pogo pins (see [buying guide](/sdsh/buycomponents/) for sources)

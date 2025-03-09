@@ -44,7 +44,9 @@ Although it's super easy to follow this guide and make something, it is only tru
 - ~~[Smart plugs](/sdsh/smartplugs/)~~
 
 #### Auxiliary stuff
-- [Pogo pin jig](pogopinjig/)
+- [Pogo pin jig (for Tuya switches)](pogopinjig/)
+- [Pogo pin jig (for ES-02S modules)](pogopinjigesp/)
+- ~~[Slip-on jig for 2-gang switches](sliponjig/)~~
 - ~~[Plug opener jig](plugopenerjig/)~~
 
 
