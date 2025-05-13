@@ -16,6 +16,10 @@ Please refer to the prior steps if you have something missing:
 - [Printing the parts](#print)
 - [Preparing the parts](#prep)
 - [Assembling the device](#assembly)
+  - [Assembling a single switch](#assembly1)
+  - [Assembling a 2-gang switch](#assembly2)
+  - [Assembling a dimmer](#assemblyd)
+  - [Assembling a dimmer with fan control](#assemblydf)
 
 ### Printing the parts {#print}
 
@@ -48,14 +52,8 @@ You don't need to print everything though! Here are the lists for each device:
 Some smaller parts (WallSwitch4, WallSwitch5, and their variants) have built-in adhesion pads and supports - those need to be removed.
 I designed them this way to simplify batch printing in ABS, which is prone to warping. While printing a full bed of parts I ran into the issue of just one part peeling off, knocking off half the parts like dominos.
 I tried printing with a brim, but it is absolutely not needed for larger parts and cleanup is painful since the brim surrounds parts completely.
-~~In case you are confident in your printer and don't want to deal with the cleanup, there are raw versions of those parts available.~~
 
-If you like the look of a switch with a status LED, you need to drill a hole in the switch rocker.
-Use the [switch drilling jig](https://github.com/ScramblerUSA/SimpleDiySmarthome/blob/main/3DModels/WallSwitch-DrillingJig.stl) to drill the hole in the right location.
-Insert the jig into the rocker and use the 5/32 (or 4 mm) diameter drill to make a hole. Deburr the hole if needed, it needs to be smooth on the front side.
-Take a piece of scotch tape and apply it on the front side. Make sure there are no air bubbles around the hole.
-Use a plastic card or a fingernail if needed. Tape will contain the resin, while the adhesive will add a slight texture to the resin, giving it a matte appearance.
-Add a drop of UV resin in the hole. Shine the UV light to harden it. Turn it over, remove the tape and shine the UV from the front for a good measure.
+Switch rocker needs to be prepared as described on the [Teardown](/sdsh/teardown) page.
 
 
 ### Assembling the device {#assembly}
@@ -67,6 +65,36 @@ General idea is the same across all types of switches. The board goes into the c
 At this point all the final solder connections can be made. The case is then glued to the frame (part #1).
 Now the button is connected (3 buttons for 2-gang models). Finally, the remaining open frame is covered with a cover (part #3).
 For 2-gang models there is also a large cover for the second switch frame (part #3-dummy) and a wire channel cover (part #6).
+
+#### Assembling a single switch {#assembly1}
+
+Single switch assembly begins with soldering a couple of wires to the board. **Make sure your board is flashed!**
+Wires need to be soldered to the spots shown on this picture:
+[![](/images/switch/1g-connt.jpg)](/images/switch/1g-conn.jpg) (click to enlarge)
+3 boards are shown here: regular switch, switch with RF module, switch with power monitor.
+
+Ground wire is very easy to solder. It is helpful to orient it horizontally when soldering.
+Button wire is a little bit tricky, but you can do it! All you need to do is to strip a very short piece of insulation from the wire
+(about 1mm or 1/16") and pre-tin it. Now apply some flux to the contact point, bring the wire and heat everything with a fine tipped
+soldering iron. It will melt solder on both the wire and the contact point, allowing them to fuse together.
+Remove the iron and you are done.
+
+Next step is to glue a tactile switch in its place in the switch frame (WallSwitch1.stl). Photo is missing! :(
+
+Now place the board into the housing and put 2 retainers in: photo is missing! :(
+Apply super glue around the rim of the housing and glue it to the frame: photo is missing! :(
+Solder 2 wires to a tactile switch: photo is missing! :(
+Glue the small cover to the frame: photo is missing! :(
+Now all that remains is to insert the bumper into the hole above the button and insert the rocker into frame.
+Make sure to orient it so the window is above the switch board.
+
+Fine tune the rocker. If you are not satisfied with the feel of your newly assembled switch (rocker has a lot of play without
+pushing the button) it's easy to fix. Use a large flat screwdriver to carefully pry the rocker off. Glue on a shim. Assemble it back.
+
+
+#### Assembling a 2-gang switch {#assembly2}
+#### Assembling a dimmer {#assemblyd}
+#### Assembling a dimmer with fan control {#assemblydf}
 
 
 ![](/images/under-construction.png)

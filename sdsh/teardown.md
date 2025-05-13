@@ -17,6 +17,42 @@ You will need to pull it out the rest of the way. Once the rocker is removed, ma
 [![](/images/tear/eaton2t.jpg)](/images/tear/eaton2.jpg)
 We will use these bumpers as a means to press the switch button.
 
+Central part of the rocker needs to be removed. First remove the spring-loaded center. I like to use small pliers to unpinch it.
+[![](/images/tear/rockercenter1t.jpg)](/images/tear/rockercenter1.jpg)
+Remove the center and a spring. You can also just pull it out with large pliers - we're going to mangle the poor thing anyway,
+so you don't have to be gentle here. The only thing we care about is the face of the rocker, so don't damage it.
+Discard the center piece, but keep the spring - you never know when it will save your day. Here are all the useful parts extracted:
+[![](/images/tear/rockercenter2t.jpg)](/images/tear/rockercenter2.jpg)
+For a regular switch there's no need to remove it completely, just make sure it doesn't interfere with the rest of the switch.
+I prefer to make 2 cuts with a rotary saw in a V-shape and remove the middle:
+[![](/images/tear/rockercenter3t.jpg)](/images/tear/rockercenter3.jpg)
+[![](/images/tear/rockercenter4t.jpg)](/images/tear/rockercenter4.jpg)
+If you plan to install a motion sensor, then the inner surface needs to be flattened. Make a series of cuts with the rotary saw
+in a cross-hatched pattern:
+[![](/images/tear/rockercenter5t.jpg)](/images/tear/rockercenter5.jpg)
+and then crush it with pliers:
+[![](/images/tear/rockercenter6t.jpg)](/images/tear/rockercenter6.jpg)
+[![](/images/tear/rockercenter7t.jpg)](/images/tear/rockercenter7.jpg)
+Finally, clean it up with a straight hobby knife or a small chisel:
+[![](/images/tear/rockercenter8t.jpg)](/images/tear/rockercenter8.jpg)
+
+If you like the look of a switch with a status LED, you need to drill a hole in the switch rocker.
+Use the [switch drilling jig](https://github.com/ScramblerUSA/SimpleDiySmarthome/blob/main/3DModels/WallSwitch-DrillingJig.stl)
+to drill the hole in the right location. Insert the jig into the rocker and use the 5/32 (or 4 mm) diameter drill to make a hole.
+[![](/images/tear/rockerhole1t.jpg)](/images/tear/rockerhole1.jpg) The jig works just fine for both types of rockers
+regular and prepared for a motion sensor. I suggest to press the rocker against a flat sacrificial piece of wood to avoid
+blowout on the front side. [![](/images/tear/rockerhole2t.jpg)](/images/tear/rockerhole2.jpg)
+Deburr the hole carefully if needed, it needs to be flat and smooth on the front side. Clean up any debris.
+[![](/images/tear/rockerhole3t.jpg)](/images/tear/rockerhole3.jpg)
+
+Take a piece of matte scotch tape and apply it on the front side. Make sure there are no air bubbles around the hole.
+[![](/images/tear/rockerhole4t.jpg)](/images/tear/rockerhole4.jpg)
+![](/images/under-construction.png)
+Use a plastic card or a fingernail if needed. Tape will contain the resin, while the adhesive will add a slight texture to the resin,
+giving it a frosted appearance. Add a drop of UV resin in the hole. Shine the UV light to harden it.
+Turn it over, remove the tape and shine the UV from the front for a good measure.
+
+
 ##### Smart switch boards
 
 To extract the board from the housing you can either use a really thin screwdriver or a spudger to just pry the case apart:
